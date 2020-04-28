@@ -11,5 +11,5 @@ Function:
 - update(requiring auth)
 - delete (requiring auth)
 
-#Component Configuration
+# Component Configuration
 ![component_config](./image/component_config.png)
