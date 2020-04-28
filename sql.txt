@@ -1,0 +1,13 @@
+create table board(
+		bNum int NOT NULL Primary key,
+        bWriter varchar(20) NOT NULL, 
+        bPwd varchar(20) NOT NULL,
+        bSub varchar(50) NOT NULL, 
+        bContent varchar(2000) NOT NULL, 
+        bHit int NOT NULL,
+        bDate date NOT NULL
+	);
+    
+drop table board;
+ select * from board;
+ delete from board where bNum=8;
